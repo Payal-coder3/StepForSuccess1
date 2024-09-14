@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 30%;
+   /* &h3{
+        font-size: 7em;
+    }*/
+}
+.head p{
+    font-size: 10em;
+    color: aliceblue;
+    font-family: kaushan script;
+}
+.para{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    width: 45%;
+    font-size: 2.7em;
+    font-weight: 400;
+    position: relative;
+    left: 28%;
+    top: 32%;
+    color: aliceblue;
+}
+
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 40%;
+    
+}
+.button button{
+    padding: 16px 27px;
+    font-size: 3em;
+    font-weight: 600;
+    border-radius: 80px;
+    border: none;
+}
