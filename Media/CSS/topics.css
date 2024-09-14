@@ -8,24 +8,3 @@
     height: 100%;
     width: 100%;
 }
-.card{
-    display: flex;
-    list-style: none;
-  }
-  
-  .navbar-link {
-    display: inline-block;
-    text-decoration: none;
-    font-size: 1.8rem;
-    font-weight: 500;
-    color: #ffffff;
-   
-    transition: all 0.3s;
-  }
-  
-  .navbar-link:hover {
-    color: #78335d;
-  }
-  .drop-one:hover {
-    color: #78335d;
-  }
