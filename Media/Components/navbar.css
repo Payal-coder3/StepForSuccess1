@@ -56,35 +56,59 @@
   }
   
   /*------------------------------- navbar two----------------------------- */
-  .nav-two {
-    padding: 0 7.8rem;
-    height: 8rem;
-    
+  .container{  
+    margin: 0 auto;
+    padding: 2rem 2rem;
+    gap: 30px;
+ }
+ .flex{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #000000;
-    position: sticky;
-    top: 0;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    z-index: 8;
-  }
-  .nav-two h3{
-       font-size: 3.5em;
-       font-family: karantina;
-       color: #ddd;
-       
-  }
-  span{
-    font-size: 1em;
-    font-family: kaushan script;
+ }
+ .nav-container {
+     align-items: center;
+     justify-content: space-between;
+     
+       & .nav-logo {
+           cursor: pointer;
+           color: aliceblue;
+           & span {
+               font-family: "Karantina", system-ui;
+               font-weight: 400;
+               font-size: 4rem;
+           }
+           & .for {
+               font-family: "Kaushan Script", cursive;
+               font-weight: 400;
+           }
+       }
+    }   
+.nav-search {
+           background: #000;
+           
+           border: none;
+           font-size: 2rem;
+           background-color:white;
+           padding-right: 3rem;
+           cursor: pointer;
+       }
+     }
+    .nav-input{
+    height: 5em;
+    width: 35em;
+    border-radius: 5em ;
    }
-  .nav-two input{
-    padding: 15px 99px;
-    border-radius: 80px;
-    text-wrap: wrap;
+   button{
+    
+           border-radius: 3rem;
+   /* border-top-right-radius: 2rem;
+           border-bottom-right-radius: 2rem;*/
+           border: none;
+           font-size: 2rem;
+           background-color: white;
+           padding: 0.9rem;
+           cursor: pointer;
+   }
 
-  }
   .nav-two .logo {
     height: 6.2rem;
   }
