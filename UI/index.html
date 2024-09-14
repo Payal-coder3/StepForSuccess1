@@ -91,28 +91,35 @@
   <body>
     <!-------------------------------------------------------- navbar two start------------------------------------------------------------- -->
     <div class="nav-two">
-      <h3>Step<span>FOR</span>Success</h3>
-      <input type="text" username="" placeholder="search anything" text="search">
-      <div class="mobile-navbar-btn" onclick="toggleMenu()">
-        <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
-        <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
-      </div>
+       <div class="container nav-container flex">
+          <div class="nav-logo"><span>Step</span><span class="for">For</span><span>Success</span>
+             <button class="nav-button" >
+                <i class="fa-solid fa-magnifying-glass"></i>
+             </button> 
+          </div>
+          <input type="text" username="" placeholder="search anything" text="search">
+          <div class="mobile-navbar-btn" onclick="toggleMenu()">
+            <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+            <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
+          </div>
       <nav class="navbar">
         <ul class="navbar-list">
-          <li class="drop-one"><a class="navbar-link" href="/">Home</a></li>
+          <li class="drop-one">
+              <a class="navbar-link" href="index.html">Home</a></li>
           <li class="drop-one" i>
-            <a class="navbar-link" href="services.html">Topics</a>
+            <a class="navbar-link" href="topics.html">Topics</a>
           </li>
           <li class="drop-one" i>
-            <a class="navbar-link" href="course.html">Articles</a>
+            <a class="navbar-link" href="article.html">Articles</a>
           </li>
           <li class="drop-one" i>
             <a class="navbar-link" href="contact.html">Contact Us</a>
           </li>
         </ul>
       </nav>
+     </div>      
     </div>
-    <!-----------------------------------main section--------------------->
+    <!---------------------------------------------------------main section start-------------------------------------------------------->
     <div class="head">
         <p>Welcome Coders</p>
         </div>
@@ -123,6 +130,7 @@
     <div class="button">
         <button>Read more</button>
     </div>
+      <!---------------------------------------------------main section end-------------------------------------------------------------->
   </body>
 </html>
     
