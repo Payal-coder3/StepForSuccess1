@@ -18,15 +18,24 @@
         font-size: 7em;
     }*/
 }
-.head p{
+p.heading{
+    text-align: center;
+    display: flex;
+    align-items: center;
+  /* justify-content: center;*/
     font-size: 10em;
     color: aliceblue;
     font-family: kaushan script;
+    width: 37.5%;
+    height: 88%;
+    padding: 8px;
+    
 }
 .para{
+    display: flex;
     text-align: center;
     font-family: "Poppins", sans-serif;
-    width: 45%;
+    width: 44%;
     font-size: 2.7em;
     font-weight: 400;
     position: relative;
@@ -34,7 +43,6 @@
     top: 32%;
     color: aliceblue;
 }
-
 
 .button {
     display: flex;
