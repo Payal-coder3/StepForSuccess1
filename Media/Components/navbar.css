@@ -21,7 +21,7 @@ body {
 .container{  
     margin: 0 auto;
     padding: 2rem 4rem;
-    max-width: 155rem;
+    max-width: 200rem;
 }
 
 p,
@@ -30,6 +30,7 @@ a {
 }
 
 /* Base Rule end */
+
 
 
 
