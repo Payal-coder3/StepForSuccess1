@@ -26,9 +26,9 @@ p.heading{
     font-size: 10em;
     color: aliceblue;
     font-family: kaushan script;
-    width: 37.5%;
+    width: 39%;
     height: 88%;
-    padding: 8px;
+
     
 }
 .para{
@@ -49,7 +49,7 @@ p.heading{
     align-items: center;
     justify-content: center;
     position: relative;
-    top: 40%;
+    top: 36%;
     
 }
 .button button{
