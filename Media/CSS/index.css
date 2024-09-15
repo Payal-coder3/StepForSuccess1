@@ -39,19 +39,19 @@
         color: aliceblue;
     }
     
-    & .button {
-        display: flex;
+    /* & .button {
+        
+    } */
+    & button{
+        /* display: flex; */
         align-items: center;
         justify-content: center;
-        position: relative;
-        top: 36%;
-        
-    }
-    & .button button{
-        padding: 16px 27px;
-        font-size: 3em;
+        /* position: relative;
+        top: 36%; */
+        padding: 1.6rem 3.7rem;
+        font-size: 3rem;
         font-weight: 600;
-        border-radius: 80px;
+        border-radius: 8rem;
         border: none;
     } 
 }
