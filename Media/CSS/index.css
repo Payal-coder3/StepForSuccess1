@@ -1,52 +1,58 @@
+/* hero section css start here */
 
-.head{
-    display: flex;
+.hero-container {
+    /* display: flex; */
     align-items: center;
     justify-content: center;
-    position: relative;
-    top: 30%;
+    flex-direction: column;
+    /* position: relative;
+    top: 30%; */
    /* &h3{
         font-size: 7em;
     }*/
-}
-p.heading{
-    text-align: center;
-    display: flex;
-    align-items: center;
-  /* justify-content: center;*/
-    font-size: 10em;
-    color: aliceblue;
-font-family: kaushan script;
-    width: 39%;
-    height: 88%;
-
+    padding-top: 18rem;
+    gap: 3rem;
     
-}
-.para{
-    display: flex;
-    text-align: center;
-    font-family: "Poppins", sans-serif;
-    width: 44%;
-    font-size: 2.7em;
-    font-weight: 400;
-    position: relative;
-    left: 28%;
-    top: 32%;
-    color: aliceblue;
-}
-
-.button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    top: 36%;
+    & .hero-heading{
+        text-align: center;
+        /* display: flex; */
+        /* align-items: center; */
+        /* justify-content: center; */
+        font-size: 10em;
+        color: aliceblue;
+        font-family: kaushan script;
+        /* width: 39%;
+        height: 88%; */
+        padding-bottom: 3rem;
+     
+    }
+    & .hero-para{
+        display: flex;
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+        width: 44%;
+        font-size: 2.1em;
+        font-weight: 400;
+        /* position: relative;
+        left: 28%;
+        top: 32%; */
+        color: aliceblue;
+    }
     
+    & .button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: 36%;
+        
+    }
+    & .button button{
+        padding: 16px 27px;
+        font-size: 3em;
+        font-weight: 600;
+        border-radius: 80px;
+        border: none;
+    } 
 }
-.button button{
-    padding: 16px 27px;
-    font-size: 3em;
-    font-weight: 600;
-    border-radius: 80px;
-    border: none;
-} 
+/* hero section code end here */
