@@ -1,13 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.html,body{
-    height: 100%;
-    width: 100%;
-    background-color: black;
-}
+
 .head{
     display: flex;
     align-items: center;
@@ -25,7 +16,7 @@ p.heading{
   /* justify-content: center;*/
     font-size: 10em;
     color: aliceblue;
-    font-family: kaushan script;
+font-family: kaushan script;
     width: 39%;
     height: 88%;
 
@@ -58,4 +49,4 @@ p.heading{
     font-weight: 600;
     border-radius: 80px;
     border: none;
-}
+} 
