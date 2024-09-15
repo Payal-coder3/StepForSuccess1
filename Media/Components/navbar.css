@@ -64,6 +64,7 @@
  .flex{
     display: flex;
  }
+ 
  .nav-container {
      align-items: center;
      justify-content: space-between;
