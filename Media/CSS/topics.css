@@ -1,0 +1,90 @@
+/* start here*/
+.main{
+    height: 80%;
+    width: 100%;
+    display: flex;
+     background-color:black ;
+     & .part1{
+        width: 78%;
+        padding: 1em;
+     }
+     & .part2{
+        width: 23%;
+        padding: 2rem;
+        & .container1{
+           padding: 1rem;
+        }
+        & .card{
+           border-radius: 3rem;
+           height: 100%;
+        }
+        .topic-list{
+            display: flex;
+            justify-content: space-evenly;
+
+            & .box{
+                background-color: #000000;
+                border-radius: 2rem;
+                height: 4vh;
+                width: 6vw;
+                text-align: center;
+            }
+            & .box1{
+                background-color: #000000;
+                border-radius: 2rem;
+                height: 4vh;
+                width: 8vw;
+                text-align: center;
+            } 
+            & .box2{
+                background-color: #000000;
+                border-radius: 2rem;
+                height: 4vh;
+                width: 8.5vw;
+                text-align: center;
+            }
+            & .box3{
+                background-color: #000000;
+                border-radius: 2rem;
+                height: 4vh;
+                width: 4vw;
+                text-align: center;
+            }
+            & .box4{
+                background-color: #000000;
+                border-radius: 2rem;
+                height: 4vh;
+                width: 10vw;
+                text-align: center;
+            }
+        }
+     }
+
+}
+
+
+ .drop-one {
+    font-size: 2rem;
+    color: #f8f5f5;
+  }
+  .drop-one i {
+    font-size: 1.2rem;
+  }
+  
+  
+  .list {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: #ffffff;
+
+    transition: all 0.3s;
+  }
+  
+  .list:hover {
+    color: #560821;
+  }
+  .drop-one:hover {
+    color: #46092e;
+  }
