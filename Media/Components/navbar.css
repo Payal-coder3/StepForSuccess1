@@ -38,7 +38,12 @@ a {
 .flex{
    display: flex;
 }
-
+.grid {
+  display: grid;
+}
+.grid-two--cols {
+  grid-template-columns: repeat(2, 1fr);
+}
 /* Layout end here */
 
 
@@ -104,7 +109,7 @@ a {
     }
 
     & .navbar-list {
-      gap: 7em;
+      gap: 7rem;
       list-style: none;
       
       & .navbar-link {
@@ -114,9 +119,65 @@ a {
         color: #ffffff;
         transition: all 0.3s;
       }
-      
+      & a {
+        padding: 0.5rem 1rem; 
+      }
+
+      & .topics-section {
+        gap: 1rem;
+        align-items: center;
+        position: relative; /* specific reason */
+        & .topics-btn{
+            align-items: center;
+            justify-content: center;
+            & button {
+                background: transparent;
+                border: none;
+                & .nav-dropdown{
+                    padding-top: 2px;
+                    color: #fff;
+                }
+            }
+        }
+        
+        & .topics-content {
+            /* opacity: 0; */
+            width: 39.5rem;
+            height: auto;
+            background: #1f1f1f;
+            /* border: 2px solid rgb(42, 42, 42); */
+            border-radius: 0.7rem;
+            /* display: none; */
+            position: absolute;
+            top: 104%;
+            left: 1rem;
+            box-shadow: rgb(38, 57, 77) 0px 3px 10px 1px;
+            /* box-shadow: rgb(38, 57, 77) 1px 3px 15px 0px; */
+            
+            & .topics-list {
+                flex-wrap: wrap;
+                gap: 2rem;
+                align-items: center;
+                justify-content: center;
+                padding: 2rem 1rem;
+                list-style: none;
+                & .DSA-topic--heading {
+                    text-decoration: none;
+                    color: #ada9ab;
+                    transition: all 0.2s linear;
+                    text-transform: capitalize;
+                    font-size: 1.4rem;
+                }
+                & :hover {
+                    color: #555454;
+                }
+            }
+        }
+
+      }
+
       & .navbar-link:hover {
-        color: #78335d;
+        color: #ada9ab;
       }
 
     } 
@@ -125,8 +186,87 @@ a {
 
 /*------- navbar section end here-------- */
 
-    
+
+
+
+
+/* Hero section start here */
+.hero-main--section {
+  gap: 3rem;
+  padding-top: 7rem;
+  & img {
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      
+  }
+
+  & .hero-container {
+      padding-top: 8rem;
+      /* display: flex; */
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      /* position: relative;
+      top: 30%; */
+ /* &h3{
+  font-size: 7em;
+  }*/
+  gap: 3rem;
   
+  
+  & .hero-heading{
+      text-align: center;
+      /* display: flex; */
+      /* align-items: center; */
+      /* justify-content: center; */
+      font-size: 10em;
+      color: aliceblue;
+      font-family: kaushan script;
+      /* width: 39%;
+      height: 88%; */
+      padding-bottom: 3rem;
+      
+  }
+  & .hero-para{
+      width: 80%;
+      text-align: start;
+      font-family: "Poppins", sans-serif;
+      /* width: 100%; */
+      font-size: 2.1em;
+      font-weight: 400;
+      /* position: relative;
+      left: 28%;
+      top: 32%; */
+      color: aliceblue;
+  }
+  
+  /* & .button {
+      
+  } */
+  & button{
+      /* display: flex; */
+      align-items: center;
+      justify-content: center;
+      /* position: relative;
+      top: 36%; */
+      padding: 1.6rem 3.7rem;
+      font-size: 3rem;
+      font-weight: 600;
+      border-radius: 8rem;
+      border: none;
+  } 
+}
+}
+/* Hero section end here */
+
+
+  
+
+
+
+/* Responsiveness start from here*/
   .mobile-navbar-btn {
     display: flex;
     background: transparent;
