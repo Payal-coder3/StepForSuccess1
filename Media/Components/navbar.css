@@ -276,6 +276,173 @@ a {
 /* Hero section end here */
 
 
+
+/* footer section start here */
+footer {
+  background-color: #000000;
+  margin-top: 17rem;
+  position: relative;
+
+  & .section-footer .footer-all--content {
+      & .start-now--section {
+        flex-direction: column;
+        background-color: #555454;
+        border-radius: 2rem;
+        padding: 2rem 5rem 1rem;
+        align-items: center;
+        justify-content: center;
+        gap: 1.3rem;
+        width: auto;
+        background: linear-gradient(to right, #85a3ff, #ffb8b8, #5959ff);
+        
+        & h3 {
+          color: white;
+          font-weight: 700;
+        }
+        & .start-now--btn {
+          padding: 0.8rem 1.7rem;
+          border-radius: 1rem;
+          border: none;
+          background-color: #5757f3;
+          color: white;
+          font-weight: 700;
+          cursor: pointer;
+          font-size: 1.5rem;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          transition: all 0.4s linear;
+          
+          &:hover {
+            background: linear-gradient(to right,  #7373ff, #c9d4f4);
+            color: black;
+            /* background: transparent; */
+          }
+        }
+      }
+
+      & .actual-footer--section {
+        padding-top: 3rem;
+        gap: 16rem;
+        grid-template-columns: 0.5fr 1fr;
+        place-items: end;
+        & .logo-and--image{
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          gap: 3rem;
+          
+          & .nav-logo {
+            cursor: pointer;
+            color: aliceblue;
+            & span {
+                font-family: "Karantina", system-ui;
+                font-weight: 400;
+                font-size: 4rem;
+            }
+            & .for {
+                font-family: "Kaushan Script", cursive;
+                font-weight: 400;
+            }
+          }
+          & img {
+            background-size: cover;
+            width: 100%;
+          }
+        }
+
+        & .head-links {
+          flex-direction: column;
+          align-items: start;
+          justify-content: center;
+          gap: 5rem;
+
+          & .footer-topics--section {
+            gap: 6rem;
+            & p{
+              width: 12rem;
+              font-size: 2.3rem;
+              color: white;
+            }
+            & .footer-topics--content {
+              flex-wrap: wrap;
+              gap: 2rem;
+              width: 100%;
+              & li {
+                text-transform: capitalize;
+                list-style-type: none;
+                font-size: 1.4rem;
+                cursor: pointer;
+                color: #6f7785;
+                transition: all 0.2s linear;
+
+                &:hover {
+                  color: #dedede;
+                }
+              }
+            }
+          }
+          & .footer-notes--section {
+            gap: 6rem;
+            align-items: center;
+            & .head-links--para{
+              width: 10rem;
+              font-size: 2.3rem;
+              color: white;
+            }
+            & .notes-link {
+              font-size: 1.4rem;
+              width: auto;
+              cursor: pointer;
+              color: #6f7785;
+              transition: all 0.2s linear;
+
+              &:hover {
+                color: #dedede;
+              }
+            }
+          }
+          & .social-links--container {
+            gap: 6rem;
+            align-items: center;
+            & .head-links--para {
+              width: 10rem;
+              font-size: 2.3rem;
+              color: white;
+            }
+            & .footer-links {
+              font-size: 1.4rem;
+              color: #6f7785;
+              transition: all 0.2s linear;
+              color: white;
+              gap: 2rem;
+              align-items: center;
+              justify-content: center;
+              
+
+              & .linkedin {
+                cursor: pointer;
+                width: 8rem;
+                height: 6rem;
+                border-radius: 50%;
+                /* padding: 1rem; */
+              }
+              & .twitter {
+                cursor: pointer;
+                width: 8rem;
+                height: 4rem;
+                background-color: transparent;
+                border-radius: 50%;
+                /* padding: 1rem; */
+              }
+            }
+          }
+        }
+      }
+  }
+}
+/* footer section end here */
+
+
+
   
 
 
